@@ -3,6 +3,16 @@
 
 A simple springboot application to demonstrate ci/cd pipeline with jenkins, gradle, docker, and kubernetes.
 
+## Tools
+
+1. git - source code management
+2. jenkins - ci/cd pipeline
+3. gradle - for build tools
+4. docker - as a target environment to host the application
+5. kubernetes - to manage the docker containers
+
+## Flow
+   Once the developer develops a new feature, the source code is pushed to the git. The latest source code is then taken by Jenkins and build artifacts from it with the help of gradle build tool. The artifact should be deployed to a target environment like docker or kubernetes
 ## Table of Content
 
 1. Setup an AWS EC2 Instance
@@ -348,3 +358,13 @@ or can access the rest end point from browser using the EXTERNAL-IP address
 
 
     
+## Tools
+
+1. git - source code management
+2. jenkins - ci/cd pipeline
+3. gradle - for build tools
+4. docker - as a target environment to host the application
+5. kubernetes - to manage the docker containers
+
+## Flow
+   Once the developer develops a new feature, the source code is pushed to the git. The latest source code is then taken by Jenkins and build artifacts from it with the help of gradle build tool. The artifact should be deployed to a target environment like docker or kubernetes
