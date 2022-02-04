@@ -370,3 +370,7 @@ or can access the rest end point from browser using the EXTERNAL-IP address
    Once the developer develops a new feature, the source code is pushed to the git. The latest source code is then taken by Jenkins and build artifacts from it with the help of gradle build tool. The artifact should be deployed to a target environment like docker or kubernetes
 
    ![](img/The-Project-Architecture1.jpg)
+   ![](img/4.png)
+   ![](img/2.png)
+   ![](img/1.png)
+   ![](img/3.png)
